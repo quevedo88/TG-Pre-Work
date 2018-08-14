@@ -1,0 +1,38 @@
+  p {
+      font-family:Arial;
+    }
+h1 {
+  color:maroon;
+}
+
+.title {
+  color:teal;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+
+.publish-time {
+  color: gray;
+}
+
+.cursive {
+  font-family: cursive;
+}
+.capitalize {
+text-transform: capitalize;
+}
+
+h2.destination {
+  font-family: cursive;
+}
+.description h5 {
+  color: teal;
+}
+/*Notice that the h5 elements in the descriptions will not change color. They will continue to be teal.
+
+This is due to there being a more specific selector for h5 elements that you wrote in the last exercise. 
+Because of the more specific CSS selector (.description h5), the more general selector of h5 will not take hold.*/
+h5 {
+  color: rebeccapurple;
+}
